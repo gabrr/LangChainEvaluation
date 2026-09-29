@@ -8,6 +8,7 @@ dependencies = [
   "langchain-google-genai>=4.4.0",
   "langchain-openai>=1.6.1",
   "langchain-openrouter>=0.1,<1",
+  "langgraph-api>=0.14.0",
   "langgraph-cli[inmem]>=0.4.31",
   "langsmith[pytest]>=0.7,<1",
   "markitdown[pdf]>=0.1.8",
