@@ -1,0 +1,22 @@
+[project]
+name = "langchain-eval"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+  "docling>=2.130.0",
+  "langchain>=1.2,<2",
+  "langchain-google-genai>=4.4.0",
+  "langchain-openai>=1.6.1",
+  "langchain-openrouter>=0.1,<1",
+  "langgraph-cli[inmem]>=0.4.31",
+  "langsmith[pytest]>=0.7,<1",
+  "markitdown[pdf]>=0.1.8",
+  "typesafe-sdk>=0.7.2",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["src"]
+addopts = "--tb=line"
+
+[tool.uv]
+package = false

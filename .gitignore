@@ -1,0 +1,21 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Virtual environments
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# LangGraph local state
+.langgraph_api/
+
+# Generated evaluation results
+normalizer-output.json
+
+# macOS
+.DS_Store
